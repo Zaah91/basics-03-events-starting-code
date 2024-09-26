@@ -19,9 +19,9 @@
     <section id="events">
       <h2>Events in Action</h2>
       <button v-on:click="add(1)">Add 1</button>
-      <button v-on:click="add(5)">Add 5</button>
+      <button @:click="add(5)">Add 5</button>
       <button v-on:click="remove(1)">Remove 1</button>
-      <button v-on:click="remove(5)">Remove 5</button>
+      <button @:click="remove(5)">Remove 5</button>
       <p v-once>Starting counter: {{ counter }}</p>
       <p>Result: {{ counter }}</p>
       <input 

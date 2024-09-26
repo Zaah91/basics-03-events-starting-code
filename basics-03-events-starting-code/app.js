@@ -8,11 +8,13 @@ const app = Vue.createApp({
   },
   methods: {
     add(num){
-      //this.counter++ //add one
+      //this.counter++; // add 1
+      //this.counter += num;
       this.counter = this.counter + num;
     },
     remove(num){
-      //this.counter--
+      //this.counter--; // remove 1
+      //this.conuter -= num;
       this.counter = this.counter - num;
     },
     setName(event, lastName){
